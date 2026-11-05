@@ -260,7 +260,6 @@ def update_patient_disease():
 # Delete Patient
 @app.route("/delete_patient", methods=["GET", "POST"])
 def delete_patient():
-
     if request.method == "POST":
 
         patient_id = request.form["patient_id"]
